@@ -1,0 +1,193 @@
+/* General container styling */
+.ai-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.ai-header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Navigation bar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+
+/* Menu icon styling */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.menu-icon span {
+    background-color: white;
+    display: block;
+    height: 3px;
+    width: 25px;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    margin: 10px 0;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.dropdown-menu a:hover {
+    color: #ddd;
+}
+
+/* Main content styling */
+.ai-main {
+    margin-top: 100px; /* To avoid overlap with the fixed header */
+}
+
+.ai-intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ai-intro p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* AI Model Interaction styling */
+.ai-interaction {
+    margin: 20px 0;
+}
+
+.ai-interaction h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.ai-interaction input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.ai-interaction button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.ai-interaction button:hover {
+    background-color: #45a049;
+}
+
+.ai-interaction .response {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Footer styling */
+.ai-footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin: 0 15px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #ddd;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: flex;
+    }
+}

@@ -11,6 +11,7 @@ const Home = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/ai">AI</Link></li>
+            <li><Link to="/chat-box">ChatBox</Link></li>
             {/* Add more links as needed */}
           </ul>
         </nav>
