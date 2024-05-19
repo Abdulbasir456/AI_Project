@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './chatBox.css';
+import './AI.css';
 
 const AIModelInteraction = () => {
   const [response, setResponse] = useState('');
@@ -41,6 +41,7 @@ const ChatBox = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/ai">AI</Link></li>
+            <li><Link to="/chat-box">ChatBox</Link></li>
           </ul>
           <div className="menu-icon" onClick={toggleMenu}>
             <span></span>
@@ -75,6 +76,7 @@ const ChatBox = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/ai">AI</Link></li>
+            <li><Link to="/chat-box">ChatBox</Link></li>
           </ul>
         </nav>
       </footer>

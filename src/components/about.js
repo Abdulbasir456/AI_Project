@@ -11,6 +11,7 @@ const About = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/ai">AI</Link></li>
+            <li><Link to="/chat-box">ChatBox</Link></li>
           </ul>
         </nav>
         <h1>About Us</h1>
@@ -27,6 +28,7 @@ const About = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/ai">AI</Link></li>
+            <li><Link to="/chat-box">ChatBox</Link></li>
           </ul>
         </nav>
       </footer>
