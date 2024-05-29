@@ -12,6 +12,7 @@ const About = () => {
             <li><Link to="/about">About</Link></li>
             <li><Link to="/ai">AI</Link></li>
             <li><Link to="/chat-box">ChatBox</Link></li>
+            <li><Link to="/home-three">ThreeHome</Link></li>
           </ul>
         </nav>
         <h1>About Us</h1>
