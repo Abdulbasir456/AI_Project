@@ -9,6 +9,7 @@ import About from "./components/about";
 import AI from './components/AI';
 import ChatBox  from './components/chatBox';
 import HomeThree from './components/homeThree';
+import Contact from './components/contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
               <Route path="/ai" element={<AI />} />
               <Route path="/chat-box" element={<ChatBox />} />
               <Route path="/home-three" element={<HomeThree />} />
+              <Route path="/contact" element={<Contact />} />
     
             </Routes>
           </div>

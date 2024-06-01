@@ -99,6 +99,7 @@ const Home = () => {
             <li><Link to="/ai">AI</Link></li>
             <li><Link to="/chat-box">ChatBox</Link></li>
             <li><Link to="/home-three">ThreeHome</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
             {/* Add more links as needed */}
           </ul>
         </nav>
