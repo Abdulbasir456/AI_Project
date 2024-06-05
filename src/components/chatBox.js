@@ -1,30 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import AIModelInteraction from './aiModel';
 import './AI.css';
-
-const AIModelInteraction = () => {
-  const [response, setResponse] = useState('');
-  const [question, setQuestion] = useState('');
-
-  const handleAsk = () => {
-    // Placeholder for actual AI model interaction
-    setResponse('This is a response from the AI model.');
-  };
-
-  return (
-    <div className="ai-interaction">
-      <h2>Interact with Our AI Model</h2>
-      <input
-        type="text"
-        value={question}
-        onChange={(e) => setQuestion(e.target.value)}
-        placeholder="Ask a question..."
-      />
-      <button onClick={handleAsk}>Ask the AI</button>
-      {response && <p className="response">{response}</p>}
-    </div>
-  );
-};
 
 const ChatBox = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -86,3 +63,4 @@ const ChatBox = () => {
 };
 
 export default ChatBox;
+

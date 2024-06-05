@@ -12,6 +12,7 @@ import HomeThree from './components/homeThree';
 import Contact from './components/contact';
 
 
+
 function App() {
 
   return (
@@ -26,6 +27,8 @@ function App() {
               <Route path="/chat-box" element={<ChatBox />} />
               <Route path="/home-three" element={<HomeThree />} />
               <Route path="/contact" element={<Contact />} />
+            
+
     
             </Routes>
           </div>
