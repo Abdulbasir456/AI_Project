@@ -9,10 +9,9 @@ const About = () => {
         <nav className="navbar">
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/ai">AI</Link></li>
-            <li><Link to="/chat-box">ChatBox</Link></li>
             <li><Link to="/home-three">ThreeHome</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
         <h1>About Us</h1>
@@ -28,8 +27,6 @@ const About = () => {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/ai">AI</Link></li>
-            <li><Link to="/chat-box">ChatBox</Link></li>
           </ul>
         </nav>
       </footer>
